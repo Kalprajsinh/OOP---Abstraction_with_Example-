@@ -1,0 +1,13 @@
+In the above example, max(x,y) function is used
+The max(x,y) function is present in the math.h header file 
+in which all the implementation details of the max() function is hidden.
+
+#include <iostream>  
+#include<math.h>  
+using namespace std;  
+int main()  
+{    
+int Max = max(5,9);        
+   cout << "Max is : " <<Max<< endl;  
+   return 0;  
+}  
