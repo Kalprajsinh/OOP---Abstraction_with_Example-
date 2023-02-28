@@ -1,0 +1,27 @@
+A class is used to group all the data members and member functions 
+that hiding the internal details
+
+
+Example:-
+
+#include <iostream>
+using namespace std;
+ 
+class Example {
+private:
+    // private variables
+    int a, b, c;
+public:
+    void sum(int x, int y)
+    {
+        a = x;
+        b = y;
+        cout<<"Sum of the two number is : "<<a+b<<endl;
+    }
+};
+int main()
+{
+    Example e;
+    e.sum(5, 4);
+    return 0;
+}
